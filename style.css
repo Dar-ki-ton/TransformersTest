@@ -1,0 +1,94 @@
+html {
+  background: url(img/cybertron.jpg) no-repeat;
+  background-size: cover;
+}
+
+body {
+  width: 700px;
+  background: rgba(0, 7, 36, 0.8);
+  padding: 10px 50px;
+  margin: 20px auto;
+  color: #00a7ff;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 5px 0px 0px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 0px;
+}
+
+.title {
+  font-family: "Jaro", sans-serif;
+}
+
+p {
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+}
+
+img {
+  width: 400px;
+}
+
+hr {
+  border: 3px solid #0073ff;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+
+input {
+  background: #4d5052;
+  font-size: 20px;
+  font-family: "Source Code Pro", monospace;
+  padding: 2px 5px;
+  color: #b3b6b8;
+
+  transition: background 1s, color 1s;
+}
+
+input:hover {
+  background: #919698;
+  color: #3b3e3f;
+
+  transition: background 1s, color 1s;
+}
+
+button {
+  width: 150px;
+  background: red;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  padding: 1px 10px;
+  color: purple;
+
+  transition: background 1s, color 1s;
+}
+
+button:hover {
+  background: purple;
+  color: red;
+
+  transition: background 1s, color 1s;
+}
+
+#sources {
+  background: rgba(47, 58, 119, 0.7);
+  padding: 5px 10px;
+}
+
+a {
+  color: red;
+
+  transition: color 1s;
+}
+
+a:hover {
+  color: purple;
+
+  transition: color 1s;
+}
